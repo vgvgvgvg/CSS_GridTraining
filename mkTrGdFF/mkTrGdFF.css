@@ -1,0 +1,28 @@
+/* №1
+#parent {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.75fr;
+    padding: 10px;
+    border: medium solid salmon;
+    width: auto;
+}
+#parent > div {
+    padding: 10px;
+    border: thin solid tomato;
+    box-sizing: border-box;
+}
+*/
+
+/* №2 */
+#parent {
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr 1.25fr;
+    padding: 10px;
+    border: medium solid salmon;
+    width: auto;
+  }
+  #parent > div {
+    padding: 10px;
+    border: thin solid tomato;
+    box-sizing: border-box;
+  }
