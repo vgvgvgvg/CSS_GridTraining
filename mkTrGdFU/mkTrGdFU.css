@@ -1,0 +1,44 @@
+/* №1 
+#parent {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    border: medium solid chartreuse;
+    padding: 10px;
+    width: 600px;
+}
+#parent > div {
+    border: thin solid forestgreen;
+    padding: 10px;
+    box-sizing: border-box;
+}
+*/
+
+/* №2
+#parent {
+    display: grid;
+    grid-template-columns: 7fr 7fr 7fr;
+    border: medium solid chartreuse;
+    padding: 10px;
+    width: 600px;
+}
+#parent > div {
+    border: thin solid forestgreen;
+    padding: 10px;
+    box-sizing: border-box;
+}
+*/
+/* №3 */
+#parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: medium solid chartreuse;
+    padding: 10px;
+    width: 600px;
+}
+#parent > div {
+    border: thin solid forestgreen;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
