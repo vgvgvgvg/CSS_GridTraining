@@ -1,0 +1,25 @@
+/* №1
+#parent {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    border: medium solid rebeccapurple;
+    padding: 10px;
+    width: 600px;
+}
+#parent > div {
+    border: thin solid teal;
+    padding: 10px;
+}
+*/
+/* №2 */
+#parent {
+    display: grid;
+    grid-template-columns: 100px 1fr 1.5fr 100px;
+    border: medium solid rebeccapurple;
+    padding: 10px;
+    width: 600px;
+  }
+  #parent > div {
+    border: thin solid teal;
+    padding: 10px;
+  }
