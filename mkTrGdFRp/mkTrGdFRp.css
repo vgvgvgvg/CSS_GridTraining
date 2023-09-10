@@ -1,0 +1,39 @@
+/* №1
+#parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: medium solid darkorange;
+    padding: 10px;
+    width: auto;
+}
+#parent > div {
+    border: thin solid khaki;
+    padding: 10px;
+}
+*/
+/* №2 
+#parent {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+    border: medium solid darkorange;
+    padding: 10px;
+    width: auto;
+}
+#parent > div {
+    border: thin solid khaki;
+    padding: 10px;
+}
+*/
+/* №3 
+*/
+#parent {
+    display: grid;
+    grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
+    border: medium solid darkorange;
+    padding: 10px;
+    width: auto;
+}
+#parent > div {
+    border: thin solid khaki;
+    padding: 10px;
+}
