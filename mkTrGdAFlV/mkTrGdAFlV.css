@@ -1,0 +1,32 @@
+/* №1
+#parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    border: medium solid salmon;
+    padding: 10px;
+    width: 900px;
+}
+#parent > div {
+    padding: 10px;
+    border: thin solid slateblue;
+}
+*/
+/* 
+ */
+ #parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    border: medium solid salmon;
+  padding: 10px;
+  width: auto;
+  }
+  #parent > div {
+    padding: 10px;
+    border: thin solid slateblue;
+  }
+
+
+
+
+
+
