@@ -1,0 +1,11 @@
+#parent {
+    display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+border: medium solid darkorange;
+padding: 10px;
+
+}
+#parent > div {
+border: thin solid navy;
+padding: 10px;
+}
