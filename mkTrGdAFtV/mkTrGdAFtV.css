@@ -1,0 +1,31 @@
+/* №1
+#parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    border: medium solid darkorange;
+    padding: 10px;
+    
+}
+
+#parent > div {
+    border: thin solid olive;
+    padding: 10px;
+}
+*/
+/* №2 */
+
+#parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    border: medium solid darkorange;
+    padding: 10px;
+    
+}
+
+#parent > div {
+    border: thin solid olive;
+    padding: 10px;
+}
+
+
+
