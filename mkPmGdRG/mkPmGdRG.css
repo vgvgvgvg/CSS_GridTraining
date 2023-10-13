@@ -1,0 +1,17 @@
+/* №1
+ */
+#parent {
+display: grid;
+row-gap: 25%;
+padding: 10px;
+border: 2px solid #696989;
+width: 600px;
+height: 300px;
+}
+
+#parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+
