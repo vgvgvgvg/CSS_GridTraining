@@ -1,0 +1,45 @@
+/* №1
+ */
+#parent {
+    display: grid;
+grid-template-columns: 50px 50px 50px;
+grid-template-rows: 50px 50px 50px;
+padding: 10px;
+border: 2px solid #696989;
+width: 600px;
+height: 600px;
+}
+#parent > div {
+    border: 1px solid #696989;
+    padding: 10px;
+}
+#elem1 {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+
+#elem2 {
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+
+#elem3 {
+grid-column: 3 / 4;
+grid-row: 3 / 4;
+}
+
+#elem4 {
+grid-column: 4 / 5;
+grid-row: 4 / 5;
+}
+
+#elem5 {
+grid-column: 5 / 6;
+grid-row: 5 / 6;
+}
+
+#elem6 {
+grid-column: 6 / 7;
+grid-row: 6 / 7;
+}
+
