@@ -1,0 +1,94 @@
+/* №1
+#parent {
+    display: grid;
+
+    grid-template-columns: 120px 120px;
+    grid-template-rows: repeat(4, 1fr);
+    border: 1px solid #696989;
+    padding: 10px;
+  grid-gap: 10px;
+  width: 380px;
+  height: 400px;
+}
+#parent > div {
+  border: 1px solid #696989;
+  padding: 10px;
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+
+#elem1 {
+    place-self: center start;
+}
+*/
+/* №2
+#parent {
+    display: grid;
+    
+    grid-template-columns: 120px 120px;
+    grid-template-rows: repeat(4, 1fr);
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    width: 380px;
+    height: 400px;
+}
+  #parent > div {
+      border: 1px solid #696989;
+      padding: 10px;
+      grid-gap: 10px;
+      box-sizing: border-box;
+    }
+    
+    #elem3 {
+        place-self: center end;
+    }
+    */
+/* №3 
+#parent {
+    display: grid;
+  
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    width: 380px;
+    height: 400px;
+}
+#parent > div {
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+#elem5 {
+    place-self: end center;
+}
+*/
+/*  №4*/
+#parent {
+    display: grid;
+  
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    width: 380px;
+    height: 400px;
+  }
+  #parent > div {
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    box-sizing: border-box;
+  }
+  
+  #elem2 {
+    place-self: end start;
+  }
+  #elem4 {
+    place-self: start center;
+  }
