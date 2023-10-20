@@ -1,0 +1,95 @@
+/* №1
+#parent {
+    display: grid;
+
+    grid-template-columns: 120px 120px;
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    width: 380px;
+    height: 400px;
+}
+#parent > div {
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+#elem3 {
+    align-self: start;
+}
+*/
+/* №2
+#parent {
+    display: grid;
+    
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid #696989;
+  padding: 10px;
+  grid-gap: 10px;
+  width: 380px;
+  height: 400px;
+}
+#parent > div {
+    border: 1px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+}
+#elem2 {
+    align-self: center;
+}
+*/
+/* №3
+ */
+#parent {
+    display: grid;
+
+grid-template-columns: 120px 120px 120px;
+grid-template-rows: repeat(3, 1fr);
+    border: 2px solid #696989;
+    padding: 10px;
+    grid-gap: 10px;
+width: 380px;
+height: 400px;
+
+}
+#parent > div {
+border: 1px solid #696989;
+padding: 10px;
+grid-gap: 10px;
+box-sizing: border-box;
+}
+#elem4 {
+align-self: self-end;
+}
+#elem5 {
+align-self: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
